@@ -1,0 +1,17 @@
+ul, li{
+    text-decoration: none;
+}
+
+main, h1, footer{
+    text-align: center;
+}
+
+ul#ave,
+ul#gato,
+ul#inseto,
+ul#marinho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+}
