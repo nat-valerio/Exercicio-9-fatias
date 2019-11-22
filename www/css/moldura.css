@@ -14,6 +14,17 @@ div#principal{
     url(../css/images/moldura-9-pedacos_08.jpg),
     url(../css/images/moldura-9-pedacos_05.jpg);
 
+    background-repeat: 
+    no-repeat,
+    no-repeat,
+    no-repeat, 
+    no-repeat,
+    repeat-x,
+    repeat-y,
+    repeat-y,
+    repeat-x, 
+    repeat;
+
     background-position-x: 
     left,
     right,
@@ -36,10 +47,10 @@ div#principal{
     center;
 
     font-size: 24px;
-    color: #fff;
     text-align: center;
     text-decoration: none;
     padding: 37px;
     padding-left: 38px;
     padding-right: 38px;
+
 }

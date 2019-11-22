@@ -1,9 +1,13 @@
-ul, li{
-    text-decoration: none;
+ul{
+    list-style-type: none;
 }
 
 main, h1, footer{
     text-align: center;
+}
+
+img{
+    margin: 10px;
 }
 
 ul#ave,
@@ -14,4 +18,5 @@ ul#marinho{
     flex-wrap: wrap;
     justify-items: center;
     justify-content: space-around;
+    margin-right: 10px;
 }
